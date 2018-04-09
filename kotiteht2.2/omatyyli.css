@@ -5,24 +5,28 @@
 }
 header, footer {
     padding: 20px;
-    background: rgb(128, 128, 128);
+    background: #999;
 }
 #one {
     padding: 20px;
     background: #efefef;
-    float: left;
+    float:left;
+    /*float: right;*/
     /*kokonaisleveys #one on 680px=(640px + 2*20px(paddingit)*/
     width: 640px;
-    /*float: right;*/
+    
 }
 #two {
     padding: 20px;
     background: #ccc;
     /*kokonaisleveys #two on #wrap leveys 960px - 680px(#one leveys) = 280px*/
-    margin-left: 700px;
-    /*margin-right: 700px; */
+    float:left;
+    margin-left:20px;
+    /*float: right;*/
+    width: 220px;
+    /*margin-right: 20px;*/
 }
-#footer {
+footer {
     /*clear erottaa footerin ylempien osien floattauksesta ja se 
         pysyy aina niiden alapuolella*/
     clear: both;
